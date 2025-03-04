@@ -9,5 +9,6 @@ while actually `Foo` and `Wow` are actually different types.
 And `impl Default for <() as Container>::Item` does not conflict with types defined in the same crate `lib.rs`
 
 
-<img width="838" alt="image" src="https://github.com/user-attachments/assets/a135d57b-70fd-45c1-a1a5-a19e37310a40" />
+<img width="697" alt="image" src="https://github.com/user-attachments/assets/3408b795-7072-4542-ab3c-40ef76a536c6" />
+
 
