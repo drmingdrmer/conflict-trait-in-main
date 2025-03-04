@@ -8,9 +8,7 @@ impl Container for () {
 
 pub struct Foo;
 
-pub type AliasType = <() as Container>::Item;
-
-impl Default for AliasType {
+impl Default for <() as Container>::Item {
     fn default() -> Self {
         Foo
     }
